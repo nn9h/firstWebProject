@@ -301,20 +301,27 @@ header .search-sub {
 #new_product {
   height: 300px;
   padding: 0 40px;
-}
-
-#new_product .new_product-container {
   position: relative;
   top: 140px;
 }
 
 #new_product h1 {
+  position: relative;
   text-align: center;
   padding-bottom: 10px;
-  text-decoration: wavy underline var(--header-color) 2px;
   text-underline-offset: 10px;
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+#new_product h1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: var(--header-color);
+  bottom: 0;
+  transform: translateX(70px);
 }
 
 #new_product .products {
@@ -324,8 +331,10 @@ header .search-sub {
 }
 
 #new_product .product {
+  position: relative;
   width: 20%;
   min-width: 270px;
+  margin-bottom: 40px;
 }
 
 #new_product .product p {
@@ -351,6 +360,7 @@ header .search-sub {
 }
 
 #new_product .price_hide {
+  height: 60px;
   overflow: hidden;
 }
 
@@ -424,6 +434,51 @@ header .search-sub {
 
 #new_product .product:hover img {
   box-shadow: 4px 4px 10px var(--slide-btn-color);
+}
+
+#new_product .product:hover .sale-item {
+  transform: rotateY(360deg);
+}
+
+#new_product .sale-item {
+  transition: 0.5s;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  background-color: var(--addToCart-color);
+  color: var(--white-color);
+  padding: 14px 10px;
+  font-size: 12px;
+}
+
+#new_product .border-bottom {
+  margin-top: 60px;
+  padding: 3px;
+  background-color: var(--page-color);
+}
+
+#new_product .box-out {
+  max-width: 260px;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  transform: translateY(-55%);
+  cursor: pointer;
+}
+
+#new_product .box-in {
+  width: 100%;
+  background-color: var(--page-color);
+  color: var(--white-color);
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#new_product .box-out:hover .box-in {
+  background-color: var(--addToCart-color);
 }
 
 /* Animation */
@@ -563,6 +618,20 @@ header .search-sub {
 
   #slide_show {
     top: 135px;
+  }
+
+  #new_product .new_product-container {
+    top: 170px;
+  }
+
+  #new_product .products {
+    justify-content: space-around;
+  }
+
+  #new_product .product img,
+  #new_product .heart,
+  #new_product .box-out {
+    cursor: unset;
   }
 }
 
