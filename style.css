@@ -299,10 +299,10 @@ header .search-sub {
 }
 /* ----------------------- */
 #new_product {
-  height: 300px;
   padding: 0 40px;
   position: relative;
   top: 140px;
+  margin-bottom: 140px;
 }
 
 #new_product h1 {
@@ -432,7 +432,8 @@ header .search-sub {
   opacity: 100%;
 }
 
-#new_product .product:hover img {
+#new_product .product:hover img,
+#best_sales .seller-items img:hover {
   box-shadow: 4px 4px 10px var(--slide-btn-color);
 }
 
@@ -481,6 +482,104 @@ header .search-sub {
   background-color: var(--addToCart-color);
 }
 
+/* ----------------------------------- */
+#best_sales {
+  padding: 0 40px;
+}
+
+#best_sales .banner {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#best_sales .banner img {
+  width: 100%;
+}
+
+#best_sales .banner-info {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+}
+
+#best_sales .info-wrapper:not(:last-child) {
+  margin-right: 30px;
+}
+
+#best_sales .info-wrapper h2 {
+  font-size: 200%;
+  color: var(--addToCart-color);
+  transform: translateX(30%) translateY(-30%);
+}
+
+#best_sales .best_seller_grid {
+  display: flex;
+}
+
+#best_sales .left-banner {
+  width: 40%;
+  margin-right: 10%;
+  margin-left: 30px;
+}
+
+#best_sales .left-banner img {
+  width: 100%;
+}
+
+#best_sales .right-banner {
+  margin-top: 16px;
+}
+#best_sales .right-banner h2 {
+  margin-bottom: 36px;
+  position: relative;
+}
+
+#best_sales .right-banner h2::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: var(--header-color);
+  bottom: -8px;
+  transform: translateX(30px);
+}
+
+#best_sales .seller-items {
+  display: flex;
+}
+
+#best_sales .item {
+  margin-left: 15px;
+  margin-right: 50px;
+  max-width: 220px;
+}
+
+#best_sales .item img {
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#best_sales .item p {
+  margin: 6px 0;
+}
+
+#best_sales .item i:not(:last-child) {
+  margin-right: 4px;
+}
+
+#best_sales .star-icon {
+  color: var(--header-color);
+}
+
+#best_sales .item-price {
+  font-weight: bold;
+}
 /* Animation */
 @keyframes sub-header {
   0% {
