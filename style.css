@@ -8,6 +8,8 @@
   --white-color: white;
   --addToCart-color: #c33442;
   --register-color: #f5f5f5;
+  --footer-color: rgb(52, 50, 50);
+  --light-white: #aaa;
 }
 
 * {
@@ -586,10 +588,10 @@ header .search-sub {
 
 /* ------------------------------------ */
 #register-box {
-  padding: 40px 90px;
+  padding: 35px 90px;
   background-color: var(--register-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
 }
@@ -633,6 +635,120 @@ header .search-sub {
 #register-box button:hover {
   background-color: var(--page-color);
 }
+
+footer {
+  padding: 60px 40px;
+  background-color: var(--footer-color);
+  color: var(--white-color);
+}
+
+footer .footer_nav {
+  display: flex;
+}
+
+footer .footer_nav-info {
+  padding: 0 20px;
+}
+
+footer .footer_nav-info:not(:first-child) {
+  border-left: 1px solid #444;
+}
+
+footer .about-icon {
+  display: flex;
+}
+
+footer .about-icon .icon {
+  font-size: 40px;
+  margin-right: 15px;
+  color: var(--light-white);
+}
+
+footer .footer_nav h2 {
+  /* text-align: center; */
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+footer .about {
+  flex-basis: 25%;
+}
+
+footer .about p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+footer .account {
+  flex-basis: 25%;
+}
+
+footer .arrow-list {
+  margin: 10px 0;
+}
+
+footer .arrow-list a:hover,
+footer .arrow-list:has(a:hover),
+footer .about i,
+footer .about-icon .icon:hover {
+  color: var(--header-color);
+  transition: 0.2s;
+}
+
+footer .arrow {
+  margin-right: 8px;
+}
+
+footer .arrow-list a,
+footer .arrow-list,
+footer .about p,
+footer .contact-icon li,
+.copyright a {
+  color: var(--light-white);
+}
+
+footer .infomation {
+  flex-basis: 25%;
+}
+
+footer .contact {
+  flex-basis: 25%;
+}
+
+footer .contact .icon {
+  padding: 10px;
+  background-color: var(--sub-nav-color);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+footer .contact-icon li {
+  margin: 20px 0;
+}
+
+footer .contact-icon span {
+  font-size: 14px;
+}
+
+footer .contact-icon i:first-child {
+  /* margin-right: 36px; */
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0;
+  padding: 0 40px;
+  font-size: 14px;
+  color: var(--light-white);
+}
+
+.copyright a:hover {
+  color: var(--sub-nav-color);
+}
+/* ---------------------------- */
 /* Animation */
 @keyframes sub-header {
   0% {
