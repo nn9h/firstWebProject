@@ -489,11 +489,13 @@ header .search-sub {
 #best_sales {
   padding: 0 40px;
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 #best_sales .banner {
   position: relative;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 #best_sales .banner img {
@@ -503,8 +505,8 @@ header .search-sub {
 #best_sales .banner-info {
   position: absolute;
   top: 35%;
-  left: 17%;
-  width: 100%;
+  left: 200px;
+  right: 200px;
 }
 
 #best_sales .info-wrapper {
@@ -517,6 +519,7 @@ header .search-sub {
 #best_sales .info-wrapper h2 {
   color: var(--addToCart-color);
   margin-bottom: 10px;
+  font-size: 30px;
 }
 
 #best_sales .best_seller_grid {
@@ -861,7 +864,7 @@ footer .contact-icon span {
     background-color: var(--bg-color);
     width: 100%;
     left: 0;
-    top: 90px;
+    top: 89.5px;
     height: 45px;
   }
 
@@ -911,7 +914,8 @@ footer .contact-icon span {
 
   #best_sales .banner-info {
     top: 25%;
-    left: 0%;
+    left: 20px;
+    right: 20px;
   }
 
   #best_sales .info-wrapper {
@@ -1026,5 +1030,77 @@ footer .contact-icon span {
   header .search-mb-icon {
     margin-right: 0;
     margin-left: 12px;
+  }
+
+  #best_sales .banner-info {
+    top: 12%;
+    left: 26px;
+    right: 2px;
+  }
+
+  #best_sales .info-wrapper:first-child {
+    margin-left: 20px;
+  }
+
+  #best_sales .info-wrapper h2 {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+
+  #best_sales .info-wrapper p {
+    font-size: 10px;
+  }
+
+  #best_sales .seller-items {
+    flex-wrap: wrap;
+  }
+
+  #best_sales .item:first-child {
+    margin-bottom: 30px;
+  }
+
+  #register-box {
+    padding: 20px 20px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  #register-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #register-box .email-input {
+    position: relative;
+    width: 340px;
+    height: 40px;
+  }
+
+  #register-box input {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  #register-box button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 60px 10px;
+  }
+
+  footer .about {
+    flex-basis: unset;
+  }
+
+  footer .footer_nav-info {
+    margin-bottom: 30px;
+  }
+
+  footer .arrow-list {
+    font-size: 24px;
   }
 }
