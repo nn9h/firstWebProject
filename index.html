@@ -1,411 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Header start -->
-    <header id="header">
-      <div class="logo-shop">
-        <img src="/imgs/Shopee.svg.png" alt="" />
-      </div>
-      <div class="nav">
-        <div class="wrapper"></div>
-        <ul class="nav-control">
-          <i class="close fa-sharp fa-solid fa-xmark"></i>
-          <li class="home control-icon active">
-            HOME
-            <ul class="home-list comeUpTab">
-              <li class="active">Homepage Style 1</li>
-              <li>Homepage Style 2</li>
-            </ul>
-          </li>
-          <li class="shop control-icon">SHOP</li>
-          <li class="page control-icon">PAGE</li>
-          <li class="blog control-icon">BLOG</li>
-          <li class="contact control-icon">CONTACT</li>
-          <li class="login-item contact control-icon">LOGIN</li>
-        </ul>
-        <ul class="nav-info">
-          <li class="search-icon">
-            <input
-              type="text"
-              class="search"
-              placeholder="What are you looking for?"
-            />
-            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-          </li>
-          <li class="user-icon">
-            <i class="user-icon-click fa-sharp fa-solid fa-circle-user"></i>
-            <ul class="user-login comeUpTab">
-              <li><a href="https://www.youtube.com/">Đăng nhập</a></li>
-              <li><a href="https://www.facebook.com/">Đăng kí</a></li>
-            </ul>
-          </li>
-          <li class="cart-icon">
-            <span class="num">0</span>
-            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
-          </li>
-        </ul>
-      </div>
-      <i class="cart fa-sharp fa-solid fa-cart-shopping">
-        <span class="cart-mb-num">0</span>
-      </i>
-      <i class="menu-icon fa-sharp fa-solid fa-bars"></i>
-      <div class="search-sub">
-        <input
-          type="text"
-          class="search-mobile"
-          placeholder="What are you looking for?"
-        />
-        <i class="search-mb-icon fa-sharp fa-solid fa-magnifying-glass"></i>
-      </div>
-    </header>
-    <!-- Header end -->
 
-    <!-- Slide show start  -->
-    <section id="slide_show">
-      <div class="slide_container">
-        <input type="radio" name="slide-btn" id="radio-1" checked />
-        <input type="radio" name="slide-btn" id="radio-2" />
-        <input type="radio" name="slide-btn" id="radio-3" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css" />
+  <title>Document</title>
+</head>
 
-        <div class="slide first">
-          <img src="/imgs/slideshow1.jpg" alt="" />
-        </div>
-        <div class="slide">
-          <img src="/imgs/slideshow2.jpg" alt="" />
-        </div>
-        <div class="slide">
-          <img src="/imgs/slideshow1.jpg" alt="" />
-        </div>
-      </div>
+<body>
+  <!-- Header start -->
+  <header id="header">
+    <div class="logo-shop">
+      <img src="imgs/Shopee.svg.png" alt="" />
+    </div>
+    <div class="nav">
+      <div class="wrapper"></div>
+      <ul class="nav-control">
+        <i class="close fa-sharp fa-solid fa-xmark"></i>
+        <li class="home control-icon active">
+          HOME
+          <ul class="home-list comeUpTab">
+            <li class="active">Homepage Style 1</li>
+            <li>Homepage Style 2</li>
+          </ul>
+        </li>
+        <li class="shop control-icon">SHOP</li>
+        <li class="page control-icon">PAGE</li>
+        <li class="blog control-icon">BLOG</li>
+        <li class="contact control-icon">CONTACT</li>
+        <li class="login-item contact control-icon">LOGIN</li>
+      </ul>
+      <ul class="nav-info">
+        <li class="search-icon">
+          <input type="text" class="search" placeholder="What are you looking for?" />
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </li>
+        <li class="user-icon">
+          <i class="user-icon-click fa-sharp fa-solid fa-circle-user"></i>
+          <ul class="user-login comeUpTab">
+            <li><a href="https://www.youtube.com/">Đăng nhập</a></li>
+            <li><a href="https://www.facebook.com/">Đăng kí</a></li>
+          </ul>
+        </li>
+        <li class="cart-icon">
+          <span class="num">0</span>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li>
+      </ul>
+    </div>
+    <i class="cart fa-sharp fa-solid fa-cart-shopping">
+      <span class="cart-mb-num">0</span>
+    </i>
+    <i class="menu-icon fa-sharp fa-solid fa-bars"></i>
+    <div class="search-sub">
+      <input type="text" class="search-mobile" placeholder="What are you looking for?" />
+      <i class="search-mb-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+    </div>
+  </header>
+  <!-- Header end -->
 
-      <div class="slide_manual">
-        <label for="radio-1" class="manual-btn"></label>
-        <label for="radio-2" class="manual-btn"></label>
-        <label for="radio-3" class="manual-btn"></label>
-      </div>
+  <!-- Slide show start  -->
+  <section id="slide_show">
+    <div class="slide_container">
+      <input type="radio" name="slide-btn" id="radio-1" checked />
+      <input type="radio" name="slide-btn" id="radio-2" />
+      <input type="radio" name="slide-btn" id="radio-3" />
 
-      <div class="slide_auto">
-        <div class="auto-btn btn-1"></div>
-        <div class="auto-btn btn-2"></div>
-        <div class="auto-btn btn-3"></div>
+      <div class="slide first">
+        <img src="imgs/slideshow1.jpg" alt="" />
       </div>
-    </section>
-    <!-- Slide show end  -->
-
-    <!-- Featured product start -->
-    <section id="new_product">
-        <h1>Featured Product</h1>
-        <div class="products">
-          <div class="product">
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <span class="sale-item">Sale</span>
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <span class="sale-item">Sale</span>
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="product">
-            <span class="sale-item">Sale</span>
-            <img src="/imgs/pro1.jpg" alt="" />
-            <p>
-              <a href="#" class="product-name">Liquid Unero Ginger Lily</a
-              ><i class="heart fa-regular fa-heart"></i>
-            </p>
-            <div class="price_hide">
-              <div class="price_moveup">
-                <span class="star-icon"
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                  ><i class="fa-sharp fa-solid fa-star"></i
-                ></span>
-                <p class="price-product">$13.90</p>
-              </div>
-              <div class="addcart_moveup">
-                <div class="add-to-cart">ADD TO CART</div>
-                <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <p class="border-bottom">
-        <div class="box-out">
-          <div class="box-in">VIEW ALL CLOTHES</div>
-        </div>
-      </p>
-    </section>
-    <!-- Featured product end -->
-    
-    <!-- Best sales start  -->
-    <section id="best_sales">
-      <div class="banner"> 
-        <img src="/imgs/banner-best-sale.jpg" alt="">
-        <div class="banner-info"> 
-          <div class="info-wrapper">
-            <h2>90</h2>
-            <p>Project Completed</p>
-          </div>
-          <div class="info-wrapper">
-            <h2>120</h2>
-            <p>Happy Clients</p>
-          </div>
-          <div class="info-wrapper">
-            <h2>50</h2>
-            <p>Decoration Awards</p>
-          </div>
-          <div class="info-wrapper">
-            <h2>320</h2>
-            <p>Coffee Music</p>
-          </div>
-        </div>  
+      <div class="slide">
+        <img src="imgs/slideshow2.jpg" alt="" />
       </div>
-      <div class="best_seller_grid">
-        <div class="left-banner">
-          <img src="/imgs/best-sl-banner.jpg" alt="">
-        </div>
-        <div class="right-banner">
-          <h2>Best Seller</h2>
-          <div class="seller-items">
-            <div class="item">
-              <img src="/imgs/pro1.jpg" alt="" />
-              <p>
-                <a href="#" class="item-name">Liquid Unero Ginger Lily</a>
-              </p>
-                  <p class="star-wrap"
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                  ></p>
-                  <p class="item-price">$13.90</p>
-            </div>
-            <div class="item">
-              <img src="/imgs/pro1.jpg" alt="" />
-              <p>
-                <a href="#" class="item-name">Liquid Unero Ginger Lily</a>
-              </p>
-                  <p class="star-wrap"
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                    ><i class="star-icon fa-sharp fa-solid fa-star"></i
-                  ></p>
-                  <p class="item-price">$13.90</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Best sales end  -->
-
-    <!-- Register start-->
-    <div id="register-box">
-      <p>Subscribe for Send Newsletter</p>
-      <div class="email-input">
-        <input type="email" name="" id="" placeholder="Enter your email">
-        <button type="submit">SUBSCRIBE</button>
+      <div class="slide">
+        <img src="imgs/slideshow1.jpg" alt="" />
       </div>
     </div>
-    <!-- Register end-->
 
-    <!-- Footer start -->
-    <footer id="footer">
-      <div class="footer_nav">
-        <div class="footer_nav-info about">
-          <h2>About us</h2>
-          <p>Must explain too you all this mistaken idea off denouncing pleasure and well praising pain was born and I will gives you complete accounts systems must.</p>
-          <ul class="about-icon">
-            <li><a href="#"><i class="icon fab fa-facebook-square"></i></li></a>
-            <li><a href="#"><i class="icon fab fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="icon fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="#"><i class="icon fab fa-linkedin"></i></a></li>
-          </ul>
+    <div class="slide_manual">
+      <label for="radio-1" class="manual-btn"></label>
+      <label for="radio-2" class="manual-btn"></label>
+      <label for="radio-3" class="manual-btn"></label>
+    </div>
+
+    <div class="slide_auto">
+      <div class="auto-btn btn-1"></div>
+      <div class="auto-btn btn-2"></div>
+      <div class="auto-btn btn-3"></div>
+    </div>
+  </section>
+  <!-- Slide show end  -->
+
+  <!-- Featured product start -->
+  <section id="new_product">
+    <h1>Featured Product</h1>
+    <div class="products">
+      <div class="product">
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
         </div>
+      </div>
+      <div class="product">
+        <span class="sale-item">Sale</span>
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <span class="sale-item">Sale</span>
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <span class="sale-item">Sale</span>
+        <img src="imgs/pro1.jpg" alt="" />
+        <p>
+          <a href="#" class="product-name">Liquid Unero Ginger Lily</a><i class="heart fa-regular fa-heart"></i>
+        </p>
+        <div class="price_hide">
+          <div class="price_moveup">
+            <span class="star-icon"><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                class="fa-sharp fa-solid fa-star"></i></span>
+            <p class="price-product">$13.90</p>
+          </div>
+          <div class="addcart_moveup">
+            <div class="add-to-cart">ADD TO CART</div>
+            <div class="eye-show"><i class="fa-regular fa-eye"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="border-bottom">
+    <div class="box-out">
+      <div class="box-in">VIEW ALL CLOTHES</div>
+    </div>
+    </p>
+  </section>
+  <!-- Featured product end -->
+
+  <!-- Best sales start  -->
+  <section id="best_sales">
+    <div class="banner">
+      <img src="imgs/banner-best-sale.jpg" alt="">
+      <div class="banner-info">
+        <div class="info-wrapper">
+          <h2>90</h2>
+          <p>Project Completed</p>
+        </div>
+        <div class="info-wrapper">
+          <h2>120</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="info-wrapper">
+          <h2>50</h2>
+          <p>Decoration Awards</p>
+        </div>
+        <div class="info-wrapper">
+          <h2>320</h2>
+          <p>Coffee Music</p>
+        </div>
+      </div>
+    </div>
+    <div class="best_seller_grid">
+      <div class="left-banner">
+        <img src="imgs/best-sl-banner.jpg" alt="">
+      </div>
+      <div class="right-banner">
+        <h2>Best Seller</h2>
+        <div class="seller-items">
+          <div class="item">
+            <img src="imgs/pro1.jpg" alt="" />
+            <p>
+              <a href="#" class="item-name">Liquid Unero Ginger Lily</a>
+            </p>
+            <p class="star-wrap"><i class="star-icon fa-sharp fa-solid fa-star"></i><i
+                class="star-icon fa-sharp fa-solid fa-star"></i><i class="star-icon fa-sharp fa-solid fa-star"></i><i
+                class="star-icon fa-sharp fa-solid fa-star"></i><i class="star-icon fa-sharp fa-solid fa-star"></i></p>
+            <p class="item-price">$13.90</p>
+          </div>
+          <div class="item">
+            <img src="imgs/pro1.jpg" alt="" />
+            <p>
+              <a href="#" class="item-name">Liquid Unero Ginger Lily</a>
+            </p>
+            <p class="star-wrap"><i class="star-icon fa-sharp fa-solid fa-star"></i><i
+                class="star-icon fa-sharp fa-solid fa-star"></i><i class="star-icon fa-sharp fa-solid fa-star"></i><i
+                class="star-icon fa-sharp fa-solid fa-star"></i><i class="star-icon fa-sharp fa-solid fa-star"></i></p>
+            <p class="item-price">$13.90</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Best sales end  -->
+
+  <!-- Register start-->
+  <div id="register-box">
+    <p>Subscribe for Send Newsletter</p>
+    <div class="email-input">
+      <input type="email" name="" id="" placeholder="Enter your email">
+      <button type="submit">SUBSCRIBE</button>
+    </div>
+  </div>
+  <!-- Register end-->
+
+  <!-- Footer start -->
+  <footer id="footer">
+    <div class="footer_nav">
+      <div class="footer_nav-info about">
+        <h2>About us</h2>
+        <p>Must explain too you all this mistaken idea off denouncing pleasure and well praising pain was born and I
+          will gives you complete accounts systems must.</p>
+        <ul class="about-icon">
+          <li><a href="#"><i class="icon fab fa-facebook-square"></i></li></a>
+          <li><a href="#"><i class="icon fab fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="icon fa-brands fa-square-instagram"></i></a></li>
+          <li><a href="#"><i class="icon fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
       <div class="footer_nav-info account">
         <h2>Account</h2>
-      <ul class="account-nav">
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">My account</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Checkout</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Help</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Support</a></li>
-      </ul>
+        <ul class="account-nav">
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">My account</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Checkout</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Help</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Support</a></li>
+        </ul>
       </div>
       <div class="footer_nav-info infomation">
         <h2>Information</h2>
-      <ul class="info-nav">
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Product</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Pricing</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Paying</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Design systems</a></li>
-        <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Security</a></li>
-      </ul>
-    </div>
+        <ul class="info-nav">
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Product</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Pricing</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Paying</a></li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Design systems</a>
+          </li>
+          <li class="arrow-list"><i class="arrow fa-sharp fa-solid fa-angle-right"></i><a href="#">Security</a></li>
+        </ul>
+      </div>
       <div class="footer_nav-info contact">
         <h2>Contact us</h2>
         <ul class="contact-icon">
@@ -415,10 +363,11 @@
         </ul>
       </div>
     </div>
-      
-    </footer>
-    <!-- Footer end -->
-    <p class="copyright"><span>Copyright by chinh_deptrai</span><span><a href="#">Help & Support</a></span></p>
-  </body>
-  <script src="app.js"></script>
+
+  </footer>
+  <!-- Footer end -->
+  <p class="copyright"><span>Copyright by chinh_deptrai</span><span><a href="#">Help & Support</a></span></p>
+</body>
+<script src="app.js"></script>
+
 </html>
